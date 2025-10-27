@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Practice</title>
+</head>
+
+<body style="padding-bottom: 1000px;">
+  <div style="
+    display: flex;       /* 이 요소는 Flex Container가 되고, 자식 요소들은 Flex Items으로 동작 */
+    flex-direction: row;    /* 가로 방향(기본값) */
+  ">
+    <div style="background-color: lightblue;">div 1 text</div>
+    <div style="background-color: lightpink;">div 2 <p>text</p>
+      <!-- <p>는 block 요소라서 자동 줄바꿈 일어남 -->
+    </div>
+  </div>
+
+  <div style="
+    margin-top: 30px;
+    display: flex;       /* 이 요소는 Flex Container가 되고, 자식 요소들은 Flex Items으로 동작 */
+    flex-direction: row;    /* 가로 방향(기본값) */
+  ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+      ">100px</div>
+    <div style="
+      background-color: lightpink;
+      flex: 1;
+    ">flex: 1</div>
+  </div>
+
+  <div style="
+    margin-top: 30px;
+    display: flex;       /* 이 요소는 Flex Container가 되고, 자식 요소들은 Flex Items으로 동작 */
+    flex-direction: row;    /* 가로 방향(기본값) */
+  ">
+    <div style="
+      background-color: lightblue;
+      flex: 1;
+      ">flex: 1</div>
+    <div style="
+      background-color: lightpink;
+      width: 100px;
+    ">100px</div>
+    <div style="
+      background-color: lightblue;
+      flex: 2;
+      ">flex: 2</div>
+  </div>
+
+  <div style="
+    margin-top: 30px;
+    height: 70px;
+    border: 1px solid gray;
+    display: flex;       /* 이 요소는 Flex Container가 되고, 자식 요소들은 Flex Items으로 동작 */
+    flex-direction: row;    /* 가로 방향(기본값) */
+    justify-content: center;    /* justify:	행의 끝을 나란히 맞추다 */
+  ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+      ">100px</div>
+    <div style="
+      background-color: lightpink;
+      width: 100px;
+    ">100px</div>
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+      ">100px</div>
+  </div>
+
+  <div style="
+    margin-top: 30px;
+    height: 70px;
+    border: 1px solid gray;
+    display: flex;       /* 이 요소는 Flex Container가 되고, 자식 요소들은 Flex Items으로 동작 */
+    flex-direction: row;    /* 가로 방향(기본값) */
+    justify-content: space-between;    /* justify:	행의 끝을 나란히 맞추다 */
+  ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+      ">100px</div>
+    <div style="
+      background-color: lightpink;
+      width: 100px;
+    ">100px</div>
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+      ">100px</div>
+  </div>
+
+  <div style="
+    margin-top: 30px;
+    height: 70px;
+    border: 1px solid gray;
+    display: flex;       /* 이 요소는 Flex Container가 되고, 자식 요소들은 Flex Items으로 동작 */
+    flex-direction: row;    /* 가로 방향(기본값) */
+    justify-content: space-between;    /* justify:	행의 끝을 나란히 맞추다 */
+    align-items: center;      /* stetch(기본값) */
+  ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+      ">100px</div>
+    <div style="
+      background-color: lightpink;
+      width: 100px;
+    ">100px</div>
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+      ">100px</div>
+  </div>
+
+</body>
+
+</html>

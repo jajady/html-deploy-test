@@ -1,0 +1,43 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  width: 66px;
+  padding: 4px 4px;
+  background-color: white;
+  z-index: 200;
+  /* background-color: gray;  */
+}
+
+.sidebar-link {
+  /* background-color: lightgray; */
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 6px;
+}
+
+.sidebar-link p {
+  font-size: 11px;
+  text-align: center;
+  width: 95%;
+  white-space: nowrap;
+  /* 한 줄로 */
+  overflow: hidden;
+  /* 넘치는 부분 숨김 */
+  text-overflow: ellipsis;
+  /* … 표시 */
+}

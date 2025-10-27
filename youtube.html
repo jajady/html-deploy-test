@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube.com Clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/general.css">
+  <link rel="stylesheet" href="./styles/video.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/sidebar.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="./icon/burger-menu.png">
+      <img class="youtube-logo" src="./icon/logo.svg">
+    </div>
+
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="./icon/search.svg">
+        <p class="tooltip">Search</p>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="./icon/mic.svg">
+        <p class="tooltip">Search with voice</p>
+      </button>
+    </div>
+
+    <div class="right-section">
+      <button class="create-btn">
+        <img class="create-icon" src="./icon/plus.png">
+        <p class="create-txt">만들기</p>
+      </button>
+      <button class="notification-icon-btn">
+        <img class="notification-icon" src="./icon/notification.svg">
+        <p class="notifications-count">22</p>
+        <p class="tooltip">Notification</p>
+      </button>
+      <button class="profile-btn">
+        <img class="profile-img" src="./channels/channel-2.webp">
+      </button>
+
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="./icon/home.svg">
+      <p>Home</p>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icon/shorts.jpg">
+      <p>Shorts</p>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icon/subscription.svg">
+      <p>Subsrciptions</p>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icon/mypage.png">
+      <p>My Page</p>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icon/download.png">
+      <p>Offline Download</p>
+    </div>
+  </nav>
+
+  <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/thumbnail-1.png" alt="thumbnail">
+          <div class="video-time">2:44:35</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channels/channel-1.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              바흐 무반주 전곡 마라톤
+            </p>
+            <p class="video-author">
+              탱로그
+            </p>
+            <p class="video-stats">
+              조회수 2.1만회 &#183 2주 전
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/thumbnail-2.jpeg" alt="thumbnail">
+          <div class="video-time">34:35</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channels/channel-2.webp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              나영석 PD님, 침투부를 받아주세요! 나영석 PD님, 침투부를 받아주세요!
+            </p>
+            <p class="video-author">
+              침착맨
+            </p>
+            <p class="video-stats">
+              조회수 152만회 &#183 1년 전
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/thumbnail-1.png" alt="thumbnail">
+          <div class="video-time">1:14:39</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channels/channel-1.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              바흐 무반주 전곡 마라톤
+            </p>
+            <p class="video-author">
+              탱로그
+            </p>
+            <p class="video-stats">
+              조회수 2.1만회 &#183 2주 전
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/thumbnail-2.jpeg" alt="thumbnail">
+          <div class="video-time">1:14:39</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channels/channel-2.webp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              나영석 PD님, 침투부를 받아주세요! 나영석 PD님, 침투부를 받아주세요!
+            </p>
+            <p class="video-author">
+              침착맨
+            </p>
+            <p class="video-stats">
+              조회수 152만회 &#183 1년 전
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/thumbnail-1.png" alt="thumbnail">
+          <div class="video-time">1:14:39</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channels/channel-1.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              바흐 무반주 전곡 마라톤
+            </p>
+            <p class="video-author">
+              탱로그
+            </p>
+            <p class="video-stats">
+              조회수 2.1만회 &#183 2주 전
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/thumbnail-2.jpeg" alt="thumbnail">
+          <div class="video-time">1:14:39</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channels/channel-2.webp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              나영석 PD님, 침투부를 받아주세요! 나영석 PD님, 침투부를 받아주세요!
+            </p>
+            <p class="video-author">
+              침착맨
+            </p>
+            <p class="video-stats">
+              조회수 152만회 &#183 1년 전
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+</body>
+
+</html>
